@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import {Counter} from "./components/Counter";
 import {Link, Route, Routes} from 'react-router-dom';
-import {Todos} from "./components/AboutMe";
+import {Todos} from "./components/Todos";
 
 type ButtonListItemType = {
     id: number,

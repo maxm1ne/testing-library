@@ -47,12 +47,12 @@ async function fetchData() {
     }, [])
 
 
-    return <div className={"Users"}>
-        <h1 data-testid="location-title" className={"Title"}>About me</h1>
+    return <div className={"Todos"}>
+        <h1 data-testid="location-title" className={"Title"}>Todo</h1>
         <Link data-testid="link_to_counter" to={"/counter"}>To Counter</Link>
 
 
-        {(todo && !isLoading) &&  <div className={"User"}>
+        {(todo && !isLoading) &&  <div className={"TodoList"}>
 
             {todo.map((item) => <div role={"todoItem"} key={item.id}>
                 {item.title}
